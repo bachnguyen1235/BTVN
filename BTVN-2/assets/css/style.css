@@ -1,0 +1,9 @@
+button{
+    margin-right: 30px;
+}
+table, tr, td, th {
+    border: 1px solid black;
+}
+input{
+    width: auto;
+}
