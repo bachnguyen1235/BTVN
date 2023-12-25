@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-hot{
+    width: 100%;
+    height: 980px;
+    /* background-color: pink; */
+    padding: 100px 0;
+}
+.container{
+    /* display: flex; */
+    width: 90%;
+    /* height: 800px; */
+    background-color: rgb(190, 188, 194);
+    margin: auto;
+    
+}
+.row{
+    /* width: 100%;
+    height: 400px; */
+    /* background-color: rgb(243, 244, 246); */
+    display: flex;
+    margin: 0 100px;
+    flex-wrap: wrap;
+}
+.container-phu{
+    height: 800px;
+    border: 2px solid black;
+    background-color: aliceblue;
+    display: flex;
+}
+.column{
+    height: 100%;
+    padding: 0 15px;
+    /* background-color: rgb(211, 209, 209); */
+}
+.content{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(253, 250, 250);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.column-1{
+    width: 100%;
+}
+.column-2{
+    width: calc(100%/2);
+}
+.column-3{
+    width: calc(100%/3);
+    
+}
+.column-4{
+    width: calc(100%/4);
+}
+.column-5{
+    width: calc(100%/5);
+    
+}
+.item-header{
+    height: 57%;
+    width: 100%;
+    /* background-color: aliceblue;   */
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.item-body{
+    height: 10%;
+    margin: 20px 20px;
+}
+.vote{
+    height: 10%;
+    width: 93%;
+    margin: 0 20px;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.votetrai{
+    height: 100%;
+    width: 80%;
+    /* background-color: aquamarine; */
+}
+.votephai{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(246, 16, 16); */
+    display: flex;
+    justify-content: flex-end;
+}
+.item-footer{
+    height: 13%;
+    /* background-color: blueviolet; */
+    margin: 0 20px;
+    padding-top: 7%;
+}
+.footer{
+    padding: 50px 0;
+    background-color: rgb(83, 80, 76);
+    padding: 0 50px;
+
+}
+.content-footer{
+    color: aliceblue;
+    background-color: rgb(83, 80, 76);
+    /* background-color: blue; */
+}
+.content-footer > *{
+    margin-top: 20px;
+}
